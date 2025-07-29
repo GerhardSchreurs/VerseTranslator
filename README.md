@@ -1,0 +1,2 @@
+# VerseTranslator
+Translates verses

@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Five Server",
+      "type": "shell",
+      "command": "npx",
+      "args": ["five-server", "--port=5500", "--browser='C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'"],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}

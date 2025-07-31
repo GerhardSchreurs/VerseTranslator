@@ -1,1 +1,31 @@
-<b>Hello</b>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verse Translator</title>
+    <link rel="stylesheet" href="src/_style.css" />
+    <script src="src/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Bijbelvers vertaler</h1>
+        </div>
+        <div class="picker">
+            <label for="chapterBook">Boek:</label>
+            <select id="chapterBook"></select>
+        </div>    
+
+        <h1>Verse Translator</h1>
+        <div class="input-section">
+            <textarea id="inputText" placeholder="Enter text to ad..."></textarea>
+            <button id="translateButton">Translate</button>
+        </div>
+        <div class="output-section">
+            <h2>Translation</h2>
+            <div id="outputText"></div>
+        </div>
+        <button type="button" onclick="retrieveBibleVerseAsync()">Do Something</button>
+    </div>
+</body>
+</html>

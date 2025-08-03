@@ -24,7 +24,6 @@ function setDefaultOption(selectElement, text, value = '') {
 	document.getElementById('versePicker').innerHTML = ''; // Clear existing verse buttons
 }
 
-
 function setDefaults() {
 	const selectBook = document.getElementById('selectBook');
 	const selectChapter = document.getElementById('selectChapter');	
@@ -32,7 +31,6 @@ function setDefaults() {
 	setDefaultOption(selectBook, '== kies een bijbelboek ==');
 	setDefaultOption(selectChapter, '== kies een hoofdstuk ==');
 }
-
 
 function populateBookPicker() {
 		const selectBook = document.getElementById('selectBook');
@@ -77,54 +75,33 @@ function populateVersePicker(e) {
 	function innerHandleButtonClick(e) {
 		const button = e.currentTarget;
 		const buttonIndex = parseInt(button.id.split('_')[1], 10);
-		const arrToggled = document.querySelectorAll('.verse-button.selected');
+		const arrToggledButtons = document.querySelectorAll('.verse-button.selected');
+		const arrToggledIndexes = Array.from(arrToggledButtons).map(btn => parseInt(btn.id.split('_')[1], 10));	
 
-		//are there no toggled buttons?
-		if (arrToggled.length === 0) {
+		console.log('buttonIndex', buttonIndex);
+		console.log('arrToggledIndexes', arrToggledIndexes);
+
+		if (arrToggledIndexes.length === 0) {
+			//console.log('No toggled buttons, toggling current button');
+			button.classList.toggle('selected');
+			return
+		}
+
+		const toggleL = buttonIndex + 1 === arrToggledIndexes[0];
+		const toggleR = buttonIndex - 1 === arrToggledIndexes[arrToggledIndexes.length - 1];
+
+		//There are toggled buttons
+		if (toggleL || toggleR) {
 			button.classList.toggle('selected');
 			return;
 		}
 
-		//are there toggled buttons?
-		if (arrToggled.length > 0) {
-			//is buttonIndex previous or next?
-			const selectedButtonId = parseInt(arrToggled[0].id.split('_')[1], 10);
-			
-			if (buttonIndex === selectedButtonId + 1 || buttonIndex === selectedButtonId - 1) {
-				button.classList.toggle('selected');
-				return;
-			}
-
-			//if not, deselect all toggled buttons
-			arrToggled.forEach(btn => btn.classList.remove('selected'));
-		}
-
+		//Button is not adjacent to toggled buttons, clear selected buttons
+		arrToggledButtons.forEach(toggledButton => {
+			toggledButton.classList.remove('selected');
+		});
 
 		button.classList.toggle('selected');
-		//const isSelected = button.classList.contains('selected');
-
-		console.log (arrVerses);
-
-
-		// if (selectedButtonId > -1) {
-		// 	let currentSelectedButtonId = parseInt(e.currentTarget.id.split('_')[1]);
-			
-		// 	if (currentSelectedButtonId === selectedButtonId + 1) {
-		// 		button.classList.toggle('selected');
-		// 		selectedButtonId = currentSelectedButtonId;
-		// 		return
-		// 	}
-
-		// 	// If the button is already selected, deselect it
-		// 	if (isSelected) {
-		// 		button.classList.remove('selected');
-		// 		selectedButtonId = -1; // Reset selected button ID
-		// 		return;
-		// 	}
-
-		// 	e.currentTarget.classList.toggle('selected');
-		// 	selectedButtonId = -1; // Reset selected button ID
-		// }
 	}
 
 	const selectBook = document.getElementById('selectBook');
@@ -147,33 +124,11 @@ function populateVersePicker(e) {
 		button.id = `verse_${i}`;
 		button.className = 'verse-button';
 
-		// button.addEventListener('click', (e) => {	
-		// 		alert(`You clicked on verse ${i} of chapter ${chapter} in book ${selectBook.value}`);
-		// 		e.currentTarget.classList.toggle('selected');
-		// });
-
 		button.addEventListener('click', innerHandleButtonClick);
 
 		versePicker.appendChild(button);
 	}
-
-
-
-
-
-
-	// console.log('arrChapters', arrChapters);
-
-	// if (!arrChapters) {
-	// 	selectChapter.innerHTML = ''; // Clear existing options if no chapter is selected
-	// 	return;
-	// }
-
 }
-
-// Populate the book picker
-// window.addEventListener('DOMContentLoaded', () => {
-// });
 
 function doSomething() {
 	// const bookSelect = document.getElementById('chapterBook');

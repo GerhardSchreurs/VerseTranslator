@@ -4,7 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verse Translator</title>
     <link rel="stylesheet" href="src/_style.css" />
-    <script type="module" src="src/script.js"></script>
+    <script type="module" src="src/_main.js"></script>
+    <script type="text/javascript" src="https://pkg.api.bible/fumsV3.min.js"></script>
+    
 </head>
 <body>
     <div class="container">
@@ -25,11 +27,16 @@
             </div>
 
             <br/>
+            
+            <button type="button" onclick="getVerses()">Get Verses</button>
+            <br />
             <button type="button" onclick="doSomething()">Translate</button>
             
         </div>
         <div class="right">
-            <!-- <button type="button" onclick="retrieveBibleVerseAsync()">Do Something</button> -->
+            <div id="verses">
+
+            </div>
         </div>
     </div>
 </body>

@@ -1,4 +1,257 @@
-export const arrTranslations = [
+export const ArrayBibleTranslations = [
+	//DUTCH
+	{
+		"id": "ead7b4cc5007389c-01",
+		"dblId": "ead7b4cc5007389c",
+		"relatedDbl": null,
+		"name": "Dutch Bible 1939",
+		"nameLocal": "De Heilige Schrift, Petrus Canisiusvertaling, 1939",
+		"abbreviation": "nld1939",
+		"abbreviationLocal": "NLD1939",
+		"description": "Catholic",
+		"descriptionLocal": "Katholiek",
+		"language": {
+			"id": "nld",
+			"name": "Dutch",
+			"nameLocal": "Nederlands",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "NL",
+				"name": "Netherlands",
+				"nameLocal": "Netherlands"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-29T05:19:19.000Z",
+		"audioBibles": []
+	},
+	//ENGISH
+	{
+		"id": "de4e12af7f28f599-02",
+		"dblId": "de4e12af7f28f599",
+		"relatedDbl": null,
+		"name": "King James (Authorised) Version",
+		"nameLocal": "King James Version",
+		"abbreviation": "engKJV",
+		"abbreviationLocal": "KJV",
+		"description": "Protestant",
+		"descriptionLocal": "Protestant",
+		"language": {
+			"id": "eng",
+			"name": "English",
+			"nameLocal": "English",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "GB",
+				"name": "United Kingdom of Great Britain and Northern Ireland",
+				"nameLocal": "United Kingdom of Great Britain and Northern Ireland"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-29T04:04:35.000Z",
+		"audioBibles": []
+	},	
+	//FRENCH
+	{
+		"id": "a93a92589195411f-01",
+		"dblId": "a93a92589195411f",
+		"relatedDbl": null,
+		"name": "Bible J.N. Darby",
+		"nameLocal": "Bible J.N. Darby",
+		"abbreviation": "JND",
+		"abbreviationLocal": "JND",
+		"description": "German (WLC for OT and NA for NT)",
+		"descriptionLocal": "German (WLC pour l'AT et NA pour le NT)",
+		"language": {
+			"id": "fra",
+			"name": "French",
+			"nameLocal": "Français",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "FR",
+				"name": "France",
+				"nameLocal": "France"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T23:17:27.000Z",
+		"audioBibles": []
+	},
+	//SPANISH
+	{
+		"id": "482ddd53705278cc-02",
+		"dblId": "482ddd53705278cc",
+		"relatedDbl": null,
+		"name": "Versión Biblia Libre",
+		"nameLocal": "Versión Biblia Libre",
+		"abbreviation": "VBL",
+		"abbreviationLocal": "VBL",
+		"description": "Protestant",
+		"descriptionLocal": "Protestant",
+		"language": {
+			"id": "spa",
+			"name": "Spanish",
+			"nameLocal": "Español",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "ES",
+				"name": "Spain",
+				"nameLocal": "Spain"
+			},
+			{
+				"id": "MX",
+				"name": "Mexico",
+				"nameLocal": "Mexico"
+			},
+			{
+				"id": "PY",
+				"name": "Paraguay",
+				"nameLocal": "Paraguay"
+			},
+			{
+				"id": "CO",
+				"name": "Colombia",
+				"nameLocal": "Colombia"
+			},
+			{
+				"id": "CL",
+				"name": "Chile",
+				"nameLocal": "Chile"
+			},
+			{
+				"id": "EC",
+				"name": "Ecuador",
+				"nameLocal": "Ecuador"
+			},
+			{
+				"id": "HN",
+				"name": "Honduras",
+				"nameLocal": "Honduras"
+			},
+			{
+				"id": "NI",
+				"name": "Nicaragua",
+				"nameLocal": "Nicaragua"
+			},
+			{
+				"id": "PE",
+				"name": "Peru",
+				"nameLocal": "Peru"
+			},
+			{
+				"id": "PA",
+				"name": "Panama",
+				"nameLocal": "Panama"
+			},
+			{
+				"id": "CU",
+				"name": "Cuba",
+				"nameLocal": "Cuba"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T17:10:29.000Z",
+		"audioBibles": []
+	},
+	//PORTUGUESE
+	{
+		"id": "d63894c8d9a7a503-01",
+		"dblId": "d63894c8d9a7a503",
+		"relatedDbl": null,
+		"name": "Biblia Livre Para Todos",
+		"nameLocal": "Biblia Livre Para Todos",
+		"abbreviation": "BLT",
+		"abbreviationLocal": "BLT",
+		"description": null,
+		"descriptionLocal": null,
+		"language": {
+			"id": "por",
+			"name": "Portuguese",
+			"nameLocal": "Português",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "BR",
+				"name": "Brazil",
+				"nameLocal": "Brazil"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-29T03:13:31.000Z",
+		"audioBibles": []
+	},	
+	//ITALIAN
+	{
+		"id": "41f25b97f468e10b-01",
+		"dblId": "41f25b97f468e10b",
+		"relatedDbl": null,
+		"name": "Diodati Bible 1885",
+		"nameLocal": "Diodati Bibbia 1885",
+		"abbreviation": "DB1885",
+		"abbreviationLocal": "DB1885",
+		"description": "Diodati Bible 1885",
+		"descriptionLocal": "Diodati Bibbia 1885",
+		"language": {
+			"id": "ita",
+			"name": "Italian",
+			"nameLocal": "Italiano",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "IT",
+				"name": "Italy",
+				"nameLocal": "Italy"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T16:51:00.000Z",
+		"audioBibles": []
+	},
+	//POLISH
+	{
+		"id": "1c9761e0230da6e0-01",
+		"dblId": "1c9761e0230da6e0",
+		"relatedDbl": null,
+		"name": "Updated Gdansk Bible",
+		"nameLocal": "UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA",
+		"abbreviation": "polUBG",
+		"abbreviationLocal": "UBG",
+		"description": "Common",
+		"descriptionLocal": "pospolity",
+		"language": {
+			"id": "pol",
+			"name": "Polish",
+			"nameLocal": "Polski",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "PL",
+				"name": "Poland",
+				"nameLocal": "Poland"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T14:46:38.000Z",
+		"audioBibles": []
+	},	
 	//ALBANIA
 	{
 		"id": "44cb4cae1cae773f-01",
@@ -122,93 +375,6 @@ export const arrTranslations = [
 		"updatedAt": "2024-06-28T23:50:25.000Z",
 		"audioBibles": []
 	},
-	//ENGISH
-	{
-		"id": "de4e12af7f28f599-02",
-		"dblId": "de4e12af7f28f599",
-		"relatedDbl": null,
-		"name": "King James (Authorised) Version",
-		"nameLocal": "King James Version",
-		"abbreviation": "engKJV",
-		"abbreviationLocal": "KJV",
-		"description": "Protestant",
-		"descriptionLocal": "Protestant",
-		"language": {
-			"id": "eng",
-			"name": "English",
-			"nameLocal": "English",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "GB",
-				"name": "United Kingdom of Great Britain and Northern Ireland",
-				"nameLocal": "United Kingdom of Great Britain and Northern Ireland"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-29T04:04:35.000Z",
-		"audioBibles": []
-	},
-	//FRENCH
-	{
-		"id": "a93a92589195411f-01",
-		"dblId": "a93a92589195411f",
-		"relatedDbl": null,
-		"name": "Bible J.N. Darby",
-		"nameLocal": "Bible J.N. Darby",
-		"abbreviation": "JND",
-		"abbreviationLocal": "JND",
-		"description": "German (WLC for OT and NA for NT)",
-		"descriptionLocal": "German (WLC pour l'AT et NA pour le NT)",
-		"language": {
-			"id": "fra",
-			"name": "French",
-			"nameLocal": "Français",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "FR",
-				"name": "France",
-				"nameLocal": "France"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T23:17:27.000Z",
-		"audioBibles": []
-	},
-	//ITALIAN
-	{
-		"id": "41f25b97f468e10b-01",
-		"dblId": "41f25b97f468e10b",
-		"relatedDbl": null,
-		"name": "Diodati Bible 1885",
-		"nameLocal": "Diodati Bibbia 1885",
-		"abbreviation": "DB1885",
-		"abbreviationLocal": "DB1885",
-		"description": "Diodati Bible 1885",
-		"descriptionLocal": "Diodati Bibbia 1885",
-		"language": {
-			"id": "ita",
-			"name": "Italian",
-			"nameLocal": "Italiano",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "IT",
-				"name": "Italy",
-				"nameLocal": "Italy"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T16:51:00.000Z",
-		"audioBibles": []
-	},
 	//LATVIAN MISSING
 	//LITHUANIAN (ONLY Luke-Acts)
 	{
@@ -266,64 +432,6 @@ export const arrTranslations = [
 		],
 		"type": "text",
 		"updatedAt": "2024-06-28T20:17:17.000Z",
-		"audioBibles": []
-	},
-	//POLISH
-	{
-		"id": "1c9761e0230da6e0-01",
-		"dblId": "1c9761e0230da6e0",
-		"relatedDbl": null,
-		"name": "Updated Gdansk Bible",
-		"nameLocal": "UWSPÓŁCZEŚNIONA BIBLIA GDAŃSKA",
-		"abbreviation": "polUBG",
-		"abbreviationLocal": "UBG",
-		"description": "Common",
-		"descriptionLocal": "pospolity",
-		"language": {
-			"id": "pol",
-			"name": "Polish",
-			"nameLocal": "Polski",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "PL",
-				"name": "Poland",
-				"nameLocal": "Poland"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T14:46:38.000Z",
-		"audioBibles": []
-	},
-	//PORTUGUESE
-	{
-		"id": "d63894c8d9a7a503-01",
-		"dblId": "d63894c8d9a7a503",
-		"relatedDbl": null,
-		"name": "Biblia Livre Para Todos",
-		"nameLocal": "Biblia Livre Para Todos",
-		"abbreviation": "BLT",
-		"abbreviationLocal": "BLT",
-		"description": null,
-		"descriptionLocal": null,
-		"language": {
-			"id": "por",
-			"name": "Portuguese",
-			"nameLocal": "Português",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "BR",
-				"name": "Brazil",
-				"nameLocal": "Brazil"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-29T03:13:31.000Z",
 		"audioBibles": []
 	},
 	//PASHTO MISSING
@@ -400,85 +508,6 @@ export const arrTranslations = [
 		],
 		"type": "text",
 		"updatedAt": "2024-06-28T20:18:36.000Z",
-		"audioBibles": []
-	},
-	//SPANISH
-	{
-		"id": "482ddd53705278cc-02",
-		"dblId": "482ddd53705278cc",
-		"relatedDbl": null,
-		"name": "Versión Biblia Libre",
-		"nameLocal": "Versión Biblia Libre",
-		"abbreviation": "VBL",
-		"abbreviationLocal": "VBL",
-		"description": "Protestant",
-		"descriptionLocal": "Protestant",
-		"language": {
-			"id": "spa",
-			"name": "Spanish",
-			"nameLocal": "Español",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "ES",
-				"name": "Spain",
-				"nameLocal": "Spain"
-			},
-			{
-				"id": "MX",
-				"name": "Mexico",
-				"nameLocal": "Mexico"
-			},
-			{
-				"id": "PY",
-				"name": "Paraguay",
-				"nameLocal": "Paraguay"
-			},
-			{
-				"id": "CO",
-				"name": "Colombia",
-				"nameLocal": "Colombia"
-			},
-			{
-				"id": "CL",
-				"name": "Chile",
-				"nameLocal": "Chile"
-			},
-			{
-				"id": "EC",
-				"name": "Ecuador",
-				"nameLocal": "Ecuador"
-			},
-			{
-				"id": "HN",
-				"name": "Honduras",
-				"nameLocal": "Honduras"
-			},
-			{
-				"id": "NI",
-				"name": "Nicaragua",
-				"nameLocal": "Nicaragua"
-			},
-			{
-				"id": "PE",
-				"name": "Peru",
-				"nameLocal": "Peru"
-			},
-			{
-				"id": "PA",
-				"name": "Panama",
-				"nameLocal": "Panama"
-			},
-			{
-				"id": "CU",
-				"name": "Cuba",
-				"nameLocal": "Cuba"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T17:10:29.000Z",
 		"audioBibles": []
 	},
 	//TIGRINIA MISSING (Eritrea)

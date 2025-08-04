@@ -47,11 +47,12 @@ body {
 #bookPicker select, #chapterPicker select {
   width: 100%;
   height: 40px;
+  margin-bottom: 10px;
 }
 
-#bookPicker, #chapterPicker, #versePicker {
-  margin: 10px;
-}
+/* #bookPicker, #chapterPicker, #versePicker {
+  padd: 10px;
+} */
 
 .verse-button {
   background: #ccc;

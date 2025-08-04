@@ -22,7 +22,7 @@ body {
 }
 .left {
   padding: 10px;
-  width: 400px;
+  width: 385px;
   background: #ccc;
   flex-shrink: 0;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 #bookPicker select, #chapterPicker select {
-  width: 100%;
+  width: 380px;
   padding-left: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -62,4 +62,17 @@ body {
 
 .selected {
   background: orange;
+}
+
+@media only screen and (max-width: 420px) {
+  .container {
+    flex-direction: column;
+  }
+  .right {
+    width: 100%;
+    min-width: 0;
+  }
+  .left {
+    width: 100%;
+  }
 }

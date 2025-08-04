@@ -1,5 +1,6 @@
 const API_BASE_URL = 'https://api.scripture.api.bible/v1';
 const API_KEY = '8f948d8fa23613a62dde602681a64a96';
+const USER_ID = '609075531d6769c2b55a8dee81275df356108723'; //??? 
 
 export async function callApi(path, options = {}) {
   const {
@@ -14,6 +15,8 @@ export async function callApi(path, options = {}) {
   const timeoutId = setTimeout(() => controller.abort(), timeout);
 
   try {
+    path += `&fums-version=3`;
+
     const response = await fetch(`${API_BASE_URL}${path}`, {
       headers: { 'api-key': API_KEY },
       signal,
@@ -51,7 +54,7 @@ export async function getBibleVersions() {
 }
 
 export async function searchBible(bibleId, query) {
-  const json = await callApi(`/bibles/${bibleId}/search?query=${encodeURIComponent(query)}`);
+  return await callApi(`/bibles/${bibleId}/search?query=${encodeURIComponent(query)}`);
   return json.data;
   return json.data.passages.map(passage => passage.content);
 

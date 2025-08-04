@@ -251,6 +251,117 @@ export const ArrayBibleTranslations = [
 		"type": "text",
 		"updatedAt": "2024-06-28T14:46:38.000Z",
 		"audioBibles": []
+	},
+	//PASHTO MISSING
+	//ROMANIAN (INCOMPLETE)
+	{
+		"id": "33ac978af36830fa-02",
+		"dblId": "33ac978af36830fa",
+		"relatedDbl": null,
+		"name": "Carpathian Romani 2021",
+		"nameLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
+		"abbreviation": "RMC",
+		"abbreviationLocal": "RMC",
+		"description": "The Carpathian Romani Bible. Contains full NT and parts of OT that have been completed. Protestant canon.",
+		"descriptionLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
+		"language": {
+			"id": "rmc",
+			"name": "Romani, Carpathian",
+			"nameLocal": "Romanes",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "SK",
+				"name": "Slovakia",
+				"nameLocal": "Slovakia"
+			},
+			{
+				"id": "CZ",
+				"name": "Czechia",
+				"nameLocal": "Czechia"
+			},
+			{
+				"id": "UA",
+				"name": "Ukraine",
+				"nameLocal": "Ukraine"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T16:08:33.000Z",
+		"audioBibles": [
+			{
+				"id": "f888eedc342711e7-01",
+				"name": "Romani, Carpathian - The Word for the World Version (NT)",
+				"nameLocal": "Romani, Carpathian - The Word for the World Version (NT)",
+				"dblId": "f888eedc342711e7"
+			}
+		]
+	},
+	//TIGRINIA MISSING (Eritrea)
+	//TURKISH
+	{
+		"id": "085defac6e17b9eb-01",
+		"dblId": "085defac6e17b9eb",
+		"relatedDbl": null,
+		"name": "New Turkish Bible Translation (YTC)",
+		"nameLocal": "Yeni Türkçe Kutsal Kitap Çevirisi (YTC)",
+		"abbreviation": "turytc",
+		"abbreviationLocal": "YTC",
+		"description": "The Holy Bible in the Turkish Language, translated from the World English Bible",
+		"descriptionLocal": "Kutsal İncil'in Türkçe dilinde, Dünya İngilizce İncil'inden tercümesi",
+		"language": {
+			"id": "tur",
+			"name": "Turkish",
+			"nameLocal": "Türkçe",
+			"script": "Latin",
+			"scriptDirection": "LTR"
+		},
+		"countries": [
+			{
+				"id": "TR",
+				"name": "Turkey",
+				"nameLocal": "Turkey"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T13:45:32.000Z",
+		"audioBibles": []
+	},
+	//ARABIC
+	{
+		"id": "b17e246951402e50-01",
+		"dblId": "b17e246951402e50",
+		"relatedDbl": null,
+		"name": "Biblica® Open New Arabic Version 2012",
+		"nameLocal": "كتاب الحياة مجانى",
+		"abbreviation": "ONAV",
+		"abbreviationLocal": "KEHM",
+		"description": "Holy Bible",
+		"descriptionLocal": "ا‫لكتاب المقدس",
+		"language": {
+			"id": "arb",
+			"name": "Arabic, Standard",
+			"nameLocal": "العربية",
+			"script": "Arabic",
+			"scriptDirection": "RTL"
+		},
+		"countries": [
+			{
+				"id": "EG",
+				"name": "Egypt",
+				"nameLocal": "Egypt"
+			},
+			{
+				"id": "SA",
+				"name": "Saudi Arabia",
+				"nameLocal": "Saudi Arabia"
+			}
+		],
+		"type": "text",
+		"updatedAt": "2024-06-28T23:55:37.000Z",
+		"audioBibles": []
 	},	
 	//ALBANIA
 	{
@@ -308,40 +419,6 @@ export const ArrayBibleTranslations = [
 		],
 		"type": "text",
 		"updatedAt": "2024-06-28T17:17:07.000Z",
-		"audioBibles": []
-	},
-	//ARABIC
-	{
-		"id": "b17e246951402e50-01",
-		"dblId": "b17e246951402e50",
-		"relatedDbl": null,
-		"name": "Biblica® Open New Arabic Version 2012",
-		"nameLocal": "كتاب الحياة مجانى",
-		"abbreviation": "ONAV",
-		"abbreviationLocal": "KEHM",
-		"description": "Holy Bible",
-		"descriptionLocal": "ا‫لكتاب المقدس",
-		"language": {
-			"id": "arb",
-			"name": "Arabic, Standard",
-			"nameLocal": "العربية",
-			"script": "Arabic",
-			"scriptDirection": "RTL"
-		},
-		"countries": [
-			{
-				"id": "EG",
-				"name": "Egypt",
-				"nameLocal": "Egypt"
-			},
-			{
-				"id": "SA",
-				"name": "Saudi Arabia",
-				"nameLocal": "Saudi Arabia"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T23:55:37.000Z",
 		"audioBibles": []
 	},
 	//ARMENIAN MISSING
@@ -434,53 +511,6 @@ export const ArrayBibleTranslations = [
 		"updatedAt": "2024-06-28T20:17:17.000Z",
 		"audioBibles": []
 	},
-	//PASHTO MISSING
-	//ROMANIAN (INCOMPLETE)
-	{
-		"id": "33ac978af36830fa-02",
-		"dblId": "33ac978af36830fa",
-		"relatedDbl": null,
-		"name": "Carpathian Romani 2021",
-		"nameLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
-		"abbreviation": "RMC",
-		"abbreviationLocal": "RMC",
-		"description": "The Carpathian Romani Bible. Contains full NT and parts of OT that have been completed. Protestant canon.",
-		"descriptionLocal": "Le Devleskero Lav Andre Romaňi Čhib Slovensko 2021",
-		"language": {
-			"id": "rmc",
-			"name": "Romani, Carpathian",
-			"nameLocal": "Romanes",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "SK",
-				"name": "Slovakia",
-				"nameLocal": "Slovakia"
-			},
-			{
-				"id": "CZ",
-				"name": "Czechia",
-				"nameLocal": "Czechia"
-			},
-			{
-				"id": "UA",
-				"name": "Ukraine",
-				"nameLocal": "Ukraine"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T16:08:33.000Z",
-		"audioBibles": [
-			{
-				"id": "f888eedc342711e7-01",
-				"name": "Romani, Carpathian - The Word for the World Version (NT)",
-				"nameLocal": "Romani, Carpathian - The Word for the World Version (NT)",
-				"dblId": "f888eedc342711e7"
-			}
-		]
-	},
 	//SLOVAK (NT)
 	{
 		"id": "7d49326ef827c7d1-01",
@@ -508,36 +538,6 @@ export const ArrayBibleTranslations = [
 		],
 		"type": "text",
 		"updatedAt": "2024-06-28T20:18:36.000Z",
-		"audioBibles": []
-	},
-	//TIGRINIA MISSING (Eritrea)
-	//TURKISH
-	{
-		"id": "085defac6e17b9eb-01",
-		"dblId": "085defac6e17b9eb",
-		"relatedDbl": null,
-		"name": "New Turkish Bible Translation (YTC)",
-		"nameLocal": "Yeni Türkçe Kutsal Kitap Çevirisi (YTC)",
-		"abbreviation": "turytc",
-		"abbreviationLocal": "YTC",
-		"description": "The Holy Bible in the Turkish Language, translated from the World English Bible",
-		"descriptionLocal": "Kutsal İncil'in Türkçe dilinde, Dünya İngilizce İncil'inden tercümesi",
-		"language": {
-			"id": "tur",
-			"name": "Turkish",
-			"nameLocal": "Türkçe",
-			"script": "Latin",
-			"scriptDirection": "LTR"
-		},
-		"countries": [
-			{
-				"id": "TR",
-				"name": "Turkey",
-				"nameLocal": "Turkey"
-			}
-		],
-		"type": "text",
-		"updatedAt": "2024-06-28T13:45:32.000Z",
 		"audioBibles": []
 	},
 	//URDU

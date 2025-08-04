@@ -1,7 +1,6 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  background-color: red;
   color: #333;
   margin: 0;
   padding: 0;
@@ -9,27 +8,35 @@ body {
   font-size: 16px;
   line-height: 1.6;
   font-family: 'Courier New', Courier, monospace;
-
   -webkit-user-select: none;
   user-select: none;
+  overflow-y:  auto;
 }
 .container {
   width: 100%;
+  min-height: 100%;
   margin: 0 auto;
   padding: 0px;
   display: flex;
   flex-direction: row;
-  height: 100%;
-  background: green;
 }
 .left {
   padding: 10px;
   width: 400px;
   background: #ccc;
+  flex-shrink: 0;
 }
 .right {
   flex-grow: 1;
   min-height: 100%;
+}
+
+#verses {
+  padding: 20px;
+}
+
+#verses p {
+  font-size: 14px;
 }
 
 #bookPicker select, #chapterPicker select {
